@@ -1,5 +1,5 @@
 # Create-AWS-EBS-Terraform
-reating AWS EBS volume with the help of Terraform
+Creating AWS EBS volume with the help of Terraform
 
 Welcome, friends.
 
