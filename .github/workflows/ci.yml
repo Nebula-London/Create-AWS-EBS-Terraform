@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   test:
-    environment: live
+    environment: demo
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
