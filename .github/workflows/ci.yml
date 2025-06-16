@@ -11,6 +11,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Echo the env var
-        run:  echo "$TEST_ABC"
+        run: |
+          echo "live env var: $TEST_ABC" && echo "GH_REPO: $GH_REPO"
         env: 
           TEST_ABC: ${{ vars.ABC }}
+          GH_REPO: ${{ github.repository }}
